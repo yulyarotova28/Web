@@ -1,0 +1,93 @@
+<html lang="ru">
+
+<head>
+            <meta charset="UTF-8">
+            <link href="style.css" rel="stylesheet">
+            <title>Cre'a</title>
+
+</head>
+
+<body background="ImagesProekt/bg.png" >
+<header>
+<a name='top'><h1>CRE'A</h1></a>
+<p>Кольца ручной работы </p>
+<p><b> Найди свое колечко!</b></p>
+<hr>
+<div class="buttons">
+  <button id="show-favorites-btn">Показать избранное</button>
+  <button id="show-cult">Показать Новинки</button>
+  <button id="show-other">Показать всё</button>
+</div>
+<div class = "slider">
+          <input type="range" min="5000" max="20000" value="10000" id="priceSlider">
+          <p>Цена: <span id="priceValue">20000</span></p>
+      </div>
+</header>
+
+<main>
+  <section>
+<br>
+<div class="products">
+<div class="product" border-color=#b0d1b5 data-favorite="false" data-cult="true" data-other="false" data-price='111000'>
+<img src="ImagesProekt/errata.webp" width="384px"
+    height="192px" alt="Новинки" >
+<img src="ImagesProekt/Iconic.webp" width="400px"> 
+<h1>Колечкт "Кот с голубыми глазами"</h1>
+<h2> Идеально подойдет для любой прогулки. </h2>
+
+<h2> 2000 рублей </h2>
+<button class="favorite-btn" type="button">&#9733;</button>
+</div>
+<div class="product" data-favorite="false" data-cult="false" data-other="false" data-price='20000'>
+<img src="ImagesProekt/Crusher_Default.webp" width="384px"
+    height="192px" alt="Обычное">
+<h1> Колечко "Зяц"</h1>
+<h2> Колечко заяц идеально подойдет для прогулок по лесным полянам, в поисках нежных цветов одуванчика .</h2>
+ 
+<h2> 10 000 рублей </h2>
+<button class="favorite-btn" type="button">&#9733;</button>
+</div>
+<div class="product" data-favorite="false" data-cult="false" data-other="true" data-price='25000'>
+<img src="ImagesProekt/Ajax_Default.webp" width="384px"
+    height="192px" alt="Обычное">
+<h1> Колечко "котик"</h1>
+<h2> Нежное </h2>
+<h2> 50000 рублей</h2>
+<button class="favorite-btn" type="button">&#9733;</button>
+</div>
+<div class="product" data-favorite="false" data-cult="true" data-other="true" data-price='99000'>
+<img src="ImagesProekt/genjiroh.webp" width="384px"
+    height="192px" alt="Культовое">
+<img src="ImagesProekt/Iconic.webp" width="400px">
+<h1>Колечко "Олененок"</h1>
+<h2> тише не спугни. </h2>
+<h2> 100000 рублей </h2>
+<button class="favorite-btn" type="button">&#9733;</button>
+</div>
+<div class="product" data-favorite="false" data-cult="false" data-other="true" data-price='30000'>
+<img src="ImagesProekt/Nekomata_Default.webp" width="384px"
+    height="192px" alt="Обычное">
+<h1>Колечко "Белый кот"</h1>
+<h2>Будто бы живой.</h2>
+<h2> 1000 рублей </h2>
+<button class="favorite-btn" type="button"back>&#9733;</button>
+</div>
+<div class="product" data-favorite="false" data-cult="true" data-other="true" data-price='50000'>
+<img src="ImagesProekt/apparition.webp" width="384px"
+    height="192px" alt="Культовое">
+<img src="ImagesProekt/Iconic.webp" width="400px">
+<h1>колечко "Пингвиненок"</h1>
+<h2> Такой забавный. </h2>
+<h2> 10000 рублей </h2>
+<button class="favorite-btn" type="button">&#9733;</button>
+</div>
+</div>
+</main>
+<footer>
+  <hr>
+</footer>
+
+<script src="script.js"></script>
+<script src="script-slider.js"></script>
+</body>
+</html>
